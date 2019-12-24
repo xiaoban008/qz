@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>小班抢座主页</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="./lay/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="./lay/style/admin.css" media="all">
+    <link rel="stylesheet" href="./lay/style/template.css" media="all">
+</head>
+<body>
+
+
+<div class="layui-fluid layadmin-homepage-fluid">
+    <div class="layui-row layui-col-space8">
+        <div class="layui-col-md2">
+            <div class="layadmin-homepage-panel layadmin-homepage-shadow">
+                <div class="layui-card text-center">
+                    <div class="layui-card-body">
+                        <!--<div class="layadmin-homepage-pad-ver">-->
+                            <!--<img class="layadmin-homepage-pad-img" src="./lay/style/res/template/portrait.png"-->
+                                 <!--width="96" height="96">-->
+                        <!--</div>-->
+                        <h4 class="layadmin-homepage-font">小班</h4>
+                        <p class="layadmin-homepage-min-font">一个入门小码农</p>
+                        <div class="layadmin-homepage-pad-ver">
+                            <a href="javascript:;" class="layui-icon layui-icon-cellphone"></a>
+                            <a href="javascript:;" class="layui-icon layui-icon-login-wechat"></a>
+                            <a href="javascript:;" class="layui-icon layui-icon-login-qq"></a>
+                        </div>
+                        <button class="layui-btn layui-btn-fluid">跟随</button>
+                    </div>
+                </div>
+                <p class="layadmin-homepage-about">
+                    关于我
+                </p>
+                <ul class="layadmin-homepage-list-group">
+                    <li class="list-group-item"><i class="layui-icon layui-icon-location"></i>
+                        中国</li>
+                    <li class="list-group-item">
+                        <a href="javascript:;" class="color"><i
+                            class="layui-icon layui-icon-snowflake"></i>
+                        <span style="word-wrap:break-word;">#</span></a>
+                    </li>
+                </ul>
+                <div class="layadmin-homepage-pad-hor">
+                    <mdall>
+                        喜欢敲代码,做个咸鱼!
+                    </mdall>
+                </div>
+                <p class="layadmin-homepage-about">
+                    技能
+                </p>
+                <ul class="layadmin-homepage-list-inline">
+                    <a href="javascript:;" class="layui-btn layui-btn-primary">码农</a>
+                    <a href="javascript:;" class="layui-btn layui-btn-primary">胡扯</a>
+                </ul>
+            </div>
+        </div>
+        <div class="layui-col-md10">
+            <div class="layui-fluid layadmin-homepage-content">
+                <div class="layui-row  layadmin-homepage-padding15">
+                    <hr class="new-section-xs"></hr>
+                    <div class="layadmin-title layui-text-center">
+                        <p style="margin-left: 20%;font-size: 30px">上善若水,水利万物而不争</p>
+                    </div>
+                </div>
+                <div class="layui-row layui-col-space20 layadmin-homepage-list-imgtxt">
+                    <div class="layui-col-md9">
+                        <div class="grid-demo">
+                            <div class="panel-body layadmin-homepage-shadow">
+                                <div class="layui-form-item">
+                                    <div class="layui-inline xb_seat">
+                                        <label class="layui-form-label">管理员秘钥</label>
+                                        <div class="layui-input-inline">
+                                            <input type="password" id="key" name="key" autocomplete="off" class="layui-input">
+                                        </div>
+                                    </div>
+                                    <div class="layui-inline xb_seat">
+                                        <label class="layui-form-label">调试模式</label>
+                                        <div class="layui-input-inline">
+                                            <select name="debug" id="debug" style="height: 38px;width: 120px;">
+                                                <option value="0">否</option>
+                                                <option value="1">是</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="layui-inline xb_seat">
+                                        <label class="layui-form-label">指定组号</label>
+                                        <div class="layui-input-inline">
+                                            <input type="text" id="group" name="group" value="99"  autocomplete="off" class="layui-input">
+                                        </div>
+                                    </div>
+                                    <div class="layui-inline xb_seat">
+                                        <label class="layui-form-label">时间设定</label>
+                                        <div class="layui-input-inline">
+                                            <input type="text" id="time" name="time" value="2019-09-01 06:29:59" autocomplete="off" class="layui-input">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-form-item" style="text-align: center">
+                                <div class="layui-inline">
+                                    <button class="layui-btn" onclick="qz()" id="st" style="width: 200px;">开始</button>
+                                </div>
+                            </div>
+                            <div class="panel-body layadmin-homepage-shadow">
+                                    <h3 class="layadmin-title" style="text-align: center">运行日志</h3>
+                                    <hr>
+                                    <div id="log"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layui-col-md3">
+                        <div class="grid-demo">
+                            <div class="layui-card homepage-top">
+                                <div class="layui-card-header">
+                                    <h3 class="panel-title">
+                                        <i class="layui-icon layui-icon-picture"></i>
+                                        更多工具
+                                    </h3>
+                                </div>
+                                <div class="layui-card-body">
+                                    <div class="layui-row layui-col-space15">
+                                        <div class="layui-col-md12 margin-top10">
+
+                                        <a href="./index.html" class="layui-btn layui-btn-primary">个人</a>
+                                        </div>
+                                        <div class="layui-col-md4 layui-col-md12 margin-top10">
+                                            <a href="./all.html" class="layui-btn layui-btn-primary">所有</a>
+                                        </div>
+
+                                        <div class="layui-col-md12 margin-top10">
+                                            <a href="javascript:;" class="layui-btn layui-btn-primary">更多</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-card homepage-bottom">
+                                <div class="layui-card-header">
+                                    <h3 class="panel-title">
+                                        <i class="layui-icon layui-icon-user"></i>
+                                        私信
+                                    </h3>
+                                </div>
+                                <div class="layui-card-body">
+                                    <a href="javascript:;" class="layadmin-privateletterlist-item">
+
+                                        <div class="meida-right">
+                                            <p>嘻嘻</p>
+                                            <mdall>人生是一场修行,不要轻易交白卷</mdall>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./js/jquery.js"></script>
+<script>
+    function hide_xb_seat(flag) {
+
+        if(flag===2||flag==="2"){
+            $(".xb_seat").hide();
+        }else {
+            $(".xb_seat").show();
+        }
+    }
+    // hide_xb_seat(2);
+    function type_select() {
+        var flag = $("#type").val();
+        hide_xb_seat(flag);
+    }
+    
+    function qz() {
+       var time =  $("#time").val();
+       var key =  $("#key").val();
+       var group =  $("#group").val();
+       var debug =  $("#debug").val();
+       var url ='/runAll';
+        $.ajax({
+           url:url,
+           contentType:'application/json',
+           type:'get',
+           data:{
+               time:time,
+               group:group,
+               debug:debug,
+               key:key
+           },
+           success:function (res) {
+               $("#log").html(res.info);
+           }
+       })
+    }
+</script>
+<script src="./lay/layui/layui.js"></script>
+<script>
+    layui.config({
+        base: './lay/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index']);
+</script>
+</body>
+</html>

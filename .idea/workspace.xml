@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6c51735-8c0c-40db-8c31-006802aa893b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1USHqrr7AVUp8M6xxsoXiiqqlhG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xiaoban.controller" />
+      <recent name="com.xiaoban.pojo" />
+      <recent name="com.xiaoban.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/img" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="qz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaoban.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6c51735-8c0c-40db-8c31-006802aa893b" name="Default Changelist" comment="" />
+      <created>1575343270090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575343270090</updated>
+      <workItem from="1575343273430" duration="225000" />
+      <workItem from="1575343503637" duration="32000" />
+      <workItem from="1575343552539" duration="220000" />
+      <workItem from="1575348439326" duration="24378000" />
+      <workItem from="1575380060661" duration="556000" />
+      <workItem from="1575381213281" duration="726000" />
+      <workItem from="1577174109379" duration="992000" />
+      <workItem from="1577175132465" duration="496000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="714" y="132" key="NewModule_or_Project.wizard" timestamp="1577175086232">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="714" y="132" key="NewModule_or_Project.wizard/0.23.1920.977@0.23.1920.977" timestamp="1577175086232" />
+    <state x="447" y="119" key="SettingsEditor" timestamp="1577174373094">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="447" y="119" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1577174373094" />
+    <state x="570" y="267" key="Vcs.Push.Dialog.v2" timestamp="1577175515308">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="570" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1577175515308" />
+    <state x="564" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1577174115953">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="564" y="344" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1577174115953" />
+    <state x="855" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577175031398">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="855" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.977@0.23.1920.977" timestamp="1577175031398" />
+    <state x="844" y="292" key="git4idea.merge.GitPullDialog" timestamp="1577175701839">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="844" y="292" key="git4idea.merge.GitPullDialog/0.23.1920.977@0.23.1920.977" timestamp="1577175701839" />
+  </component>
+</project>
