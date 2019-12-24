@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6c51735-8c0c-40db-8c31-006802aa893b" name="Default Changelist" comment="Default Changelist" />
+    <list default="true" id="a6c51735-8c0c-40db-8c31-006802aa893b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,10 +117,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="570" y="24" key="CommitChangelistDialog2" timestamp="1577176259432">
+    <state x="570" y="24" key="CommitChangelistDialog2" timestamp="1577177256983">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="570" y="24" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1577176259432" />
+    <state x="570" y="24" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1577177256983" />
+    <state x="25" y="133" key="MergeDialog" timestamp="1577177283054">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="25" y="133" key="MergeDialog/0.23.1920.977@0.23.1920.977" timestamp="1577177283054" />
+    <state x="504" y="248" key="MultipleFileMergeDialog" timestamp="1577177283096">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="504" y="248" key="MultipleFileMergeDialog/0.23.1920.977@0.23.1920.977" timestamp="1577177283096" />
     <state x="714" y="132" key="NewModule_or_Project.wizard" timestamp="1577175086232">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
@@ -139,13 +149,17 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="855" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.977@0.23.1920.977" timestamp="1577175031398" />
-    <state x="844" y="292" key="git4idea.merge.GitPullDialog" timestamp="1577176192652">
+    <state x="844" y="292" key="git4idea.merge.GitPullDialog" timestamp="1577177479392">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="844" y="292" key="git4idea.merge.GitPullDialog/0.23.1920.977@0.23.1920.977" timestamp="1577176192652" />
+    <state x="844" y="292" key="git4idea.merge.GitPullDialog/0.23.1920.977@0.23.1920.977" timestamp="1577177479392" />
     <state x="780" y="425" key="git4idea.ui.GitResetDialog" timestamp="1577176234418">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="780" y="425" key="git4idea.ui.GitResetDialog/0.23.1920.977@0.23.1920.977" timestamp="1577176234418" />
+    <state x="589" y="384" key="git4idea.ui.GitUnstashDialog" timestamp="1577177283148">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="589" y="384" key="git4idea.ui.GitUnstashDialog/0.23.1920.977@0.23.1920.977" timestamp="1577177283148" />
   </component>
 </project>
