@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6c51735-8c0c-40db-8c31-006802aa893b" name="Default Changelist" comment="">
+    <list default="true" id="a6c51735-8c0c-40db-8c31-006802aa893b" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JRebelWorkspace">
@@ -111,16 +118,35 @@
       <workItem from="1577174109379" duration="992000" />
       <workItem from="1577175132465" duration="1097000" />
     </task>
+    <task id="LOCAL-00001" summary="Default Changelist">
+      <created>1577177257169</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577177257169</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Default Changelist">
+      <created>1577177498247</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577177498247</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="570" y="24" key="CommitChangelistDialog2" timestamp="1577177256983">
+    <state x="570" y="24" key="CommitChangelistDialog2" timestamp="1577177498025">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="570" y="24" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1577177256983" />
+    <state x="570" y="24" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1577177498025" />
     <state x="25" y="133" key="MergeDialog" timestamp="1577177283054">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
@@ -137,22 +163,22 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="447" y="119" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1577174373094" />
-    <state x="570" y="267" key="Vcs.Push.Dialog.v2" timestamp="1577176295699">
+    <state x="570" y="267" key="Vcs.Push.Dialog.v2" timestamp="1577177510461">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="570" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1577176295699" />
+    <state x="570" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1577177510461" />
     <state x="564" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1577174115953">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="564" y="344" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1577174115953" />
-    <state x="855" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577175031398">
+    <state x="855" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577180147811">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="855" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.977@0.23.1920.977" timestamp="1577175031398" />
-    <state x="844" y="292" key="git4idea.merge.GitPullDialog" timestamp="1577177479392">
+    <state x="855" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.977@0.23.1920.977" timestamp="1577180147811" />
+    <state x="844" y="292" key="git4idea.merge.GitPullDialog" timestamp="1577180256762">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="844" y="292" key="git4idea.merge.GitPullDialog/0.23.1920.977@0.23.1920.977" timestamp="1577177479392" />
+    <state x="844" y="292" key="git4idea.merge.GitPullDialog/0.23.1920.977@0.23.1920.977" timestamp="1577180256762" />
     <state x="780" y="425" key="git4idea.ui.GitResetDialog" timestamp="1577176234418">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
